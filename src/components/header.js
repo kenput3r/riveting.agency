@@ -44,11 +44,13 @@ const Header = ({ siteTitle }) => (
         <span>
           <Link to="/#contact">Contact</Link>
         </span>
-      </nav> */}
+      </nav> 
       <div className="burger-container">
         <button><FaBars /></button>
       </div>
+      */}
     </div>
+    
   </Component>
 )
 
