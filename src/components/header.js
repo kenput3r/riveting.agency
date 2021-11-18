@@ -9,8 +9,8 @@ const Header = ({ siteTitle }) => (
     <nav className="top-nav">
       <ul>
         <li>
-          <a href="tel:+17145555555">
-            <FaPhoneAlt /> <span>+1 714-555-5555</span>
+          <a href="tel:+17148311389">
+            <FaPhoneAlt /> <span>+1 714-831-1389</span>
           </a>
         </li>
         <li>
@@ -19,9 +19,9 @@ const Header = ({ siteTitle }) => (
           </a>
         </li>
         <li>
-          <a href="https://facebook.com" aria-label="Facebook"><FaFacebookF alt="Facebook" /></a>
-          <a href="https://instagram.com" aria-label="Instagram"><FaInstagram /></a>
-          <a href="https://github.com" aria-label="Github"><FaGithub /></a>
+          <a href="https://www.facebook.com/Riveting.Agency/" aria-label="Facebook"><FaFacebookF alt="Facebook" /></a>
+          <a href="https://instagram.com/riveting.agency" aria-label="Instagram"><FaInstagram /></a>
+          <a href="https://github.com/kenput3r" aria-label="Github"><FaGithub /></a>
         </li>
       </ul>
     </nav>
@@ -37,14 +37,14 @@ const Header = ({ siteTitle }) => (
             transformOptions={{fit: "contain"}} />
         </Link>
       </h1>
-      <nav>
+      {/* <nav>
         <span>
           <Link to="/">Home</Link>
         </span>
         <span>
           <Link to="/#contact">Contact</Link>
         </span>
-      </nav>
+      </nav> */}
       <div className="burger-container">
         <button><FaBars /></button>
       </div>
